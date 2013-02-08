@@ -55,7 +55,7 @@ The time is <%= $now->hms %>.
   <div id="container">  
     <h1>Уеб-Сокет Клиент</h1>  
     <div id="chatLog" 
-      style="border:1px solid #999; height:5em; overflow:auto">  
+      style="border:1px solid #999; height:6em; overflow:auto">  
     </div><!-- #chatLog -->  
     <p id="examples">Да опитаме 'здрасти', 'име', 'възраст', 'чао'</p>  
     <input id="text" type="text" />  
@@ -110,7 +110,7 @@ function connect(){
         $('#text').val("");
     }
     function message(msg){
-      $('#chatLog').append(msg+'</p>');
+      $('#chatLog').prepend(msg+'</p>');
     }
     $('#text').keypress(function(event) {
         if (event.keyCode == '13') {//Enter
