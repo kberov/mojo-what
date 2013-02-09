@@ -23,3 +23,15 @@ mojo-what
 1. Сташ и шаблони
 ...
 1. Формати (MIME Types)
+
+Mojolicious::Guides::Growing
+===
+
+WELL STRUCTURED APPLICATION
+Inflating templates
+...
+MORE
+
+1. https://github.com/kraih/mojo/wiki
+1. http://mojolicio.us/perldoc/Mojolicious/Guides
+1. SCREENCASTS
